@@ -1,0 +1,55 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body{
+   
+    background-color: pink;
+    
+}
+body h1,p{
+    color: pink;
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(219, 11, 11);
+    color: rgb(107, 160, 47);
+}
+
+.navbar .navbar-nav .nav-link:active{
+    background-color: rgb(26, 29, 175);
+    color: rgb(166, 180, 34);
+    font-weight: bold;
+}
+
+@media(max-width:756px) {
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 20;
+    width: 350%;
+    height: 300%;
+    text-align: center;
+}
+.d-block{
+    display: unset !important;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+
